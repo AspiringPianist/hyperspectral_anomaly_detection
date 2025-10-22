@@ -1,0 +1,21 @@
+Anomaly Detection Results Summary for Dataset: Salians_120_sj25_syn
+Timestamp: Tue Oct 21 19:13:56 2025
+========================================
+
+Model: PCP_ALM
+  Lambda (λ): 8.3333e-03
+  AUC: 0.9366
+  SER: 0.1325
+  AER: 0.4388
+  Time (s): 1.93
+  Optimal Threshold: 170.0596
+--------------------
+Model: LRaSMD_GoDec_r5_k0.05
+  Target Rank (r): 5
+  Sparsity Ratio (k): 0.0500
+  AUC: 0.9668
+  SER: 0.2684
+  AER: 0.4942
+  Time (s): 2.98
+  Optimal Threshold: 358.3428
+--------------------

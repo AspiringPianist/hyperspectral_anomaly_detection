@@ -1,0 +1,19 @@
+GAN-BWGNN HAD Results Summary for Dataset: abu-airport-1
+Timestamp: Wed Oct 22 22:09:05 2025
+========================================
+
+Model: GAN-BWGNN
+  Parameters:
+    Beta Wavelet Order (C): 2
+    KNN Neighbors (k): 10
+    Hidden Dimension: 128
+    Learning Rate: 0.01
+    Epochs: 200
+  Metrics:
+    AUC: 0.9269
+    SER: 2.9905
+    AER: 0.1402
+    Training Time (s): 38.98
+    Inference Time (s): 0.12
+  Optimal Threshold (Max Youden's J): 0.5736 (TPR=0.8264, FPR=0.0621)
+--------------------

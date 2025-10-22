@@ -1,0 +1,21 @@
+Anomaly Detection Results Summary for Dataset: abu-airport-1
+Timestamp: Wed Oct 22 21:36:35 2025
+========================================
+
+Model: PCP_ALM
+  Lambda (λ): 1.0000e-02
+  AUC: 0.8914
+  SER: 1.6178
+  AER: 0.0633
+  Time (s): 1.69
+  Optimal Threshold: 49.6202
+--------------------
+Model: LRaSMD_GoDec_r5_k0.05
+  Target Rank (r): 5
+  Sparsity Ratio (k): 0.0500
+  AUC: 0.7420
+  SER: 2.8800
+  AER: 0.0787
+  Time (s): 6.12
+  Optimal Threshold: 141.8591
+--------------------

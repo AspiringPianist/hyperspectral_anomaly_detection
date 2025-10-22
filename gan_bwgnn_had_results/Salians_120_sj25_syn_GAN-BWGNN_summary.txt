@@ -1,0 +1,19 @@
+GAN-BWGNN HAD Results Summary for Dataset: Salians_120_sj25_syn
+Timestamp: Wed Oct 22 22:08:40 2025
+========================================
+
+Model: GAN-BWGNN
+  Parameters:
+    Beta Wavelet Order (C): 2
+    KNN Neighbors (k): 10
+    Hidden Dimension: 128
+    Learning Rate: 0.01
+    Epochs: 200
+  Metrics:
+    AUC: 0.9133
+    SER: 31.5632
+    AER: 0.1524
+    Training Time (s): 61.18
+    Inference Time (s): 0.22
+  Optimal Threshold (Max Youden's J): 0.0004 (TPR=0.9200, FPR=0.1761)
+--------------------
