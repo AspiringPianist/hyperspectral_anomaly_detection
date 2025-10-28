@@ -1,0 +1,23 @@
+Anomaly Detection Results Summary for Dataset: LC08_L2SP_138045_20250215_20250226_02_T1_ST_B10
+Input Thermal Data: LC08_L2SP_138045_20250215_20250226_02_T1_ST_B10.TIF
+Input Ground Truth: thermal_M2_ground_truth.tif
+Timestamp: Wed Oct 29 02:02:55 2025
+========================================
+
+Model: PCP_ALM
+  Lambda (λ): 1.3079e-04
+  AUC: 0.9998
+  SER: 4.4149
+  AER: 0.0000
+  Time (s): 4.30
+  Optimal Threshold: 0.0001
+--------------------
+Model: LRaSMD_GoDec_r1_k0.01
+  Target Rank (r): 1
+  Sparsity Ratio (k): 0.0100
+  AUC: 0.4950
+  SER: 1.0088
+  AER: 0.0000
+  Time (s): 17.48
+  Optimal Threshold: inf
+--------------------
